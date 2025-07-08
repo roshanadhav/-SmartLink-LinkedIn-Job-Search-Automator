@@ -1,7 +1,7 @@
 <div align="center">
 
-# 🔗 SmartLink
-### Intelligent LinkedIn Job Search Automation Platform
+# 🔗 SmartLink  
+### Next-Gen LinkedIn Job Search Automation Platform *(In Development)*
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Node.js](https://img.shields.io/badge/Node.js-18.0+-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
@@ -11,152 +11,78 @@
 [![Puppeteer](https://img.shields.io/badge/Puppeteer-21.0+-40B5A4?logo=puppeteer&logoColor=white)](https://pptr.dev/)
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/roshanadhav/SmartLink-LinkedIn-Job-Search-Automator/ci.yml?branch=main)](https://github.com/roshanadhav/SmartLink-LinkedIn-Job-Search-Automator/actions)
-[![Code Coverage](https://img.shields.io/codecov/c/github/roshanadhav/SmartLink-LinkedIn-Job-Search-Automator)](https://codecov.io/gh/roshanadhav/SmartLink-LinkedIn-Job-Search-Automator)
-[![Security Rating](https://img.shields.io/snyk/vulnerabilities/github/roshanadhav/SmartLink-LinkedIn-Job-Search-Automator)](https://snyk.io/test/github/roshanadhav/SmartLink-LinkedIn-Job-Search-Automator)
-[![Maintainability](https://img.shields.io/codeclimate/maintainability/roshanadhav/SmartLink-LinkedIn-Job-Search-Automator)](https://codeclimate.com/github/roshanadhav/SmartLink-LinkedIn-Job-Search-Automator)
+[![Issues](https://img.shields.io/github/issues/roshanadhav/SmartLink-LinkedIn-Job-Search-Automator)](https://github.com/roshanadhav/SmartLink-LinkedIn-Job-Search-Automator/issues)
+[![Discussions](https://img.shields.io/github/discussions/roshanadhav/SmartLink-LinkedIn-Job-Search-Automator)](https://github.com/roshanadhav/SmartLink-LinkedIn-Job-Search-Automator/discussions)
 
-[🚀 **Live Demo**](https://smartlink-demo.vercel.app) • [📖 **Documentation**](https://docs.smartlink.dev) • [🐛 **Report Bug**](https://github.com/roshanadhav/SmartLink-LinkedIn-Job-Search-Automator/issues) • [💡 **Request Feature**](https://github.com/roshanadhav/SmartLink-LinkedIn-Job-Search-Automator/discussions)
+🚧 **Project Status:** `Work in Progress`  
+🛠️ **Phase:** MVP Build (Frontend + Automation Integration)
 
 </div>
 
 ---
 
-## 📋 Table of Contents
+## 🎯 Vision
 
-- [🎯 Overview](#-overview)
-- [✨ Key Features](#-key-features)
-- [🏗️ System Architecture](#️-system-architecture)
-- [🚀 Quick Start](#-quick-start)
-- [⚙️ Installation](#️-installation)
-- [🔧 Configuration](#-configuration)
-- [📖 Usage Guide](#-usage-guide)
-- [🔌 API Reference](#-api-reference)
-- [🐳 Deployment](#-deployment)
-- [🧪 Testing](#-testing)
-- [🔒 Security](#-security)
-- [📊 Performance](#-performance)
-- [🛠️ Troubleshooting](#️-troubleshooting)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-- [🆘 Support](#-support)
+**SmartLink** aims to become a fully automated, AI-driven LinkedIn job assistant that:
+- Searches jobs intelligently
+- Applies on your behalf
+- Tracks application outcomes
+- Optimizes your profile using GPT
+- Gives you daily job hunt analytics
+
+This project is being built as an end-to-end automation suite tailored for students, job seekers, and professionals who want to save time and land better roles faster.
 
 ---
 
-## 🎯 Overview
+## ✨ Upcoming Key Features
 
-**SmartLink** is an enterprise-grade, full-stack web automation platform designed to revolutionize LinkedIn job searching through intelligent automation. Built with modern technologies including Next.js 14, Express.js, TypeScript, and Puppeteer, SmartLink provides a comprehensive solution for job seekers to automate their LinkedIn job search workflow while maintaining professional standards and compliance.
-
-### 🎪 Why SmartLink?
-
-- **🚀 Efficiency**: Automate repetitive job search tasks, saving 10+ hours per week
-- **🎯 Precision**: AI-powered job matching with 95% relevance accuracy
-- **📊 Intelligence**: Advanced analytics and insights for data-driven job searching
-- **🔒 Security**: Enterprise-grade security with LinkedIn ToS compliance
-- **🌐 Scalability**: Cloud-native architecture supporting thousands of concurrent users
-- **📱 Modern UX**: Intuitive, responsive web interface built with latest design principles
+| Automation Engine | Frontend Platform | AI/ML & Smart Tools | Enterprise Readiness |
+|------------------|------------------|----------------------|-----------------------|
+| ✅ Job Scraper using Puppeteer <br> ✅ Auto Easy Apply <br> ⏳ Cron Jobs <br> ⏳ Cover Letter Auto-Fill | ✅ Next.js UI <br> ✅ App Router <br> ⏳ Live Status Feed <br> ⏳ Mobile Responsive | ⏳ GPT Resume Helper <br> ⏳ Smart Job Filtering <br> ⏳ LinkedIn Activity Simulator | ⏳ Role-Based Access <br> ⏳ Logging & Monitoring <br> ⏳ Backup Support |
 
 ---
 
-## ✨ Key Features
-
-<table>
-<tr>
-<td width="50%">
-
-### 🤖 **Automation Engine**
-- **Smart Job Discovery**: AI-powered job search with advanced filtering
-- **Intelligent Application**: Automated job applications with personalized cover letters
-- **Profile Optimization**: Automated profile views and strategic networking
-- **Application Tracking**: Real-time monitoring and status updates
-- **Scheduled Operations**: Cron-based automation scheduling
-
-</td>
-<td width="50%">
-
-### 🖥️ **Web Platform**
-- **Modern Dashboard**: Next.js 14 with App Router and Server Components
-- **Real-time Updates**: WebSocket-powered live automation monitoring
-- **Analytics Suite**: Comprehensive job search performance analytics
-- **Multi-tenant Architecture**: Support for multiple user accounts
-- **Responsive Design**: Mobile-first, accessible UI/UX
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🔧 **Advanced Capabilities**
-- **AI Integration**: GPT-powered resume optimization and cover letter generation
-- **Data Export**: Comprehensive reporting in multiple formats (PDF, CSV, JSON)
-- **API-First Design**: RESTful APIs with OpenAPI 3.0 specification
-- **Webhook Support**: Real-time notifications and integrations
-- **Rate Limiting**: Intelligent throttling to prevent LinkedIn restrictions
-
-</td>
-<td width="50%">
-
-### 🛡️ **Enterprise Features**
-- **SSO Integration**: Support for OAuth 2.0, SAML, and enterprise identity providers
-- **Audit Logging**: Comprehensive activity tracking and compliance reporting
-- **Role-based Access**: Granular permissions and user management
-- **Data Encryption**: End-to-end encryption for sensitive information
-- **Backup & Recovery**: Automated data backup and disaster recovery
-
-</td>
-</tr>
-</table>
-
----
-
-## 🏗️ System Architecture
+## 🏗️ Final System Architecture (Target Design)
 
 ```mermaid
 graph TB
-    subgraph "Client Layer"
-        A[Next.js Frontend]
-        B[Mobile App]
-        C[Chrome Extension]
-    end
-    
-    subgraph "API Gateway"
-        D[Express.js API]
-        E[Authentication]
-        F[Rate Limiting]
-    end
-    
-    subgraph "Core Services"
-        G[Automation Engine]
-        H[Job Matching AI]
-        I[Analytics Service]
-        J[Notification Service]
-    end
-    
-    subgraph "Data Layer"
-        K[(PostgreSQL)]
-        L[(Redis Cache)]
-        M[(File Storage)]
-    end
-    
-    subgraph "External Services"
-        N[LinkedIn API]
-        O[OpenAI API]
-        P[Email Service]
-    end
-    
-    A --> D
-    B --> D
-    C --> D
-    D --> E
-    D --> F
-    D --> G
-    D --> H
-    D --> I
-    D --> J
-    G --> N
-    H --> O
-    J --> P
-    G --> K
-    H --> K
-    I --> K
-    D --> L
-    G --> M
+  subgraph "Client"
+    A[Next.js Frontend]
+    B[Mobile App - Future]
+    C[Browser Extension - Planned]
+  end
+
+  subgraph "Backend"
+    D[Express.js API Gateway]
+    E[Automation Engine - Puppeteer]
+    F[Job Recommender - AI]
+    G[Analytics Service]
+    H[Auth and Rate Limiter]
+  end
+
+  subgraph "Databases"
+    I[(PostgreSQL)]
+    J[(Redis)]
+    K[(S3 - Resumes and Logs)]
+  end
+
+  subgraph "External APIs"
+    L[LinkedIn]
+    M[OpenAI]
+    N[Mail API]
+  end
+
+  A --> D
+  B --> D
+  C --> D
+  D --> E
+  D --> F
+  D --> G
+  D --> H
+  E --> L
+  F --> M
+  G --> I
+  H --> J
+  D --> K
+  G --> K
+  G --> N
