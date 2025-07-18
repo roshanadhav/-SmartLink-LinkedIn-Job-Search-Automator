@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔗 SmartLink  
+# 🔗   [SmartLink](https://smart-link-linked-in-job-search-aut.vercel.app/)
 ### Next-Gen LinkedIn Job Search Automation Platform *(In Development)*
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
